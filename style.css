@@ -1,0 +1,40 @@
+body { 
+    background-color:#C1DF7a;
+}
+
+li  {
+    list-style:none;
+}
+
+.nav {
+    display:flex;
+    justify-content:space-around;
+    background-color:#41BB49;
+    max-width:100%;  
+    color:#C1DF7a;
+    text-decoration:wavy overline;
+    font-size:22px;
+    text-align:justify;
+    padding: 40px 40px 40px 40px;
+
+}
+
+img {
+    max-width:500px;
+    max-height:500px;
+}
+
+.section-1 {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:10px;
+}
+
+div {
+    display:flex;
+    justify-content:center;
+}
+
+p { 
+    padding: 20px 50px 20px 50px
+}
