@@ -1,58 +1,162 @@
-body { 
-    background-color:#C1DF7a;
-}
-
-li  {
-    list-style:none;
+body {
+    background-color: #C1DF7a;
 }
 
 .nav {
-    display:flex;
-    justify-content:space-around;
-    background-color:#41BB49;
-    max-width:100%;  
-    color:#C1DF7a;
-    text-decoration:wavy overline;
-    font-size:22px;
-    text-align:justify;
-    padding: 40px 40px 40px 40px;
+    background-color: #41BB49;
+    color: #C1DF7a;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding: 40px 70px 40px 0px;
+    text-decoration: wavy overline;
+}
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #606060;
+    border: 1px solid black;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.show {
+    display: block;
 }
 
 img {
-    max-width:500px;
-    max-height:500px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 20%;
 }
 
-.section-1 {
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-gap:10px;
+.wec-three-engagement-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 2px solid black; */
+    margin: 40px;
+    padding-left: 45px;
 }
 
-div {
-    display:flex;
-    justify-content:center;
+.video {
+    background-image: url("images/mushroom sunny top.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    padding: 250px 0px 250px 0px;
+    width: 550px;
 }
 
-.homepage-text { 
-    /* padding: 20px 50px 20px 50px; */
-    text-align:center;
-    max-width:650px;
-    max-height: 90px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    position:absolute;
-    left:33%;
+.events {
+    background-image: url("images/sunflower.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
+    padding: 250px 0px 250px 0px;
+    width: 550px;
 }
 
-p {
-   max-width:400px; 
-   font-size:24px;
+
+.opportunities {
+    background-image: url("images/mushroom flat top.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: center;
+    padding: 250px 0px 250px 0px;
+    width: 550px;
 }
 
-h1 { 
-    font-size:30px;
+.wec-indiv-engagement-title {
+    background-color: rgba(193, 223, 122, 0.7);
+    border: 2px solid #41BB49;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
 }
 
+#opportunities-title {
+    width: 200px;
+}
+
+.wec-indiv-engagement-subtitle {
+    display: none;
+    background-color: #41BB49;
+    border: 2px solid #0e610a;
+    border-radius: 5px;
+    font-weight: 1000;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+}
+
+.homepage-text {
+    text-align: center;
+    /* border: 3px solid #41BB49; */
+    padding: 20px;
+    margin: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    max-width: 400px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    max-width: 1000px;
+}
+
+
+/* h4 { 
+    outline-style: solid;
+    outline-color:black;
+    outline-width:thin;
+    width:100% 
+} 
+ /* how do I create an outline that is the same width as the dropdown content */
+
+
+
+/* About Us Page */
+.aboutuspage {
+    display: none;
+}
+
+/* Contact Us Page */
+.contactus {
+    display: none;
+}
+
+/* FAQs Page */
+.FAQs {
+    display: none;
+}
